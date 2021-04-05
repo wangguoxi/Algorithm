@@ -1,0 +1,31 @@
+# 下面三行忽略所有不带后缀的文件
+*
+!*.*
+!*/
+*.exe
+# IDE 配置文件
+**/.DS_Store
+**/.idea
+**/.vscode
+./.vscode
+# 二进制目录
+**/bin
+
+
+# 输出文件
+*.log
+*.out
+
+# 配置文件
+*.txt
+*.sql
+*.conf
+*.json
+
+# 压缩文件
+*.zip
+*.tgz
+*.tar.gz
+
+# 可执行脚本
+*.bat
